@@ -1,0 +1,60 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+// @media screen and (min-width: 1200px) {
+//   .section {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+//   }
+// }
+
+// .section {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
