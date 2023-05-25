@@ -1,0 +1,49 @@
+.book-btn {
+  min-width: 184px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+
+  font-family: var(--first-font);
+  @include font(700, 13px, 20px);
+
+  color: var(--text-color);
+  background-color: transparent;
+
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &:hover {
+    color: var(--accent-color);
+
+    & .book-btn__outter-outline {
+      background-color: #454c56;
+    }
+  }
+}
+
+.book-btn__outter-outline {
+  display: block;
+  padding: 2px;
+  margin-right: 8px;
+
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+
+  // &:hover {
+  //   background-color: #454c56;
+  //   color: var(--accent-color);
+  // }
+}
+
+.book-btn__inner-outline {
+  display: block;
+  padding: 14px;
+
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  border-radius: 50px;
+}
+
+.button__gif {
+  display: block;
+}
