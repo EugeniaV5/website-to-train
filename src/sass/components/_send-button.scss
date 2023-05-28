@@ -1,0 +1,40 @@
+.button {
+  width: 288px;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: var(--first-font);
+  @include font(700, 13px, 20px);
+  // letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--text-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+
+  transition: background-color 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-accent-color);
+  }
+}
+
+.mail__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail__button-text {
+  margin-right: 8px;
+}
+
+.mail-btn__icon {
+  fill: var(--text-color);
+}
