@@ -1,0 +1,416 @@
+.charity-section {
+  background-color: var(--base-accent-colore-source);
+  position: relative;
+}
+
+.charity-container {
+  @media screen and (min-width: 576px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+    // &::before {
+    //   background-image: url('../images/charity/charity-left-art.png');
+    //   background-repeat: no-repeat;
+    //   position: absolute;
+    //   content: '';
+
+    //   width: 390px;
+    //   height: 879px;
+    //   left: calc(50% - 390px / 2 - 765px);
+    //   top: 0px;
+    // }
+  }
+}
+
+.charity__text-column {
+  padding-top: 128px;
+  padding-bottom: 64px;
+
+  @media screen and (min-width: 576px) {
+    width: 288px;
+    padding-bottom: 128px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 384px;
+    padding-top: 171px;
+    padding-bottom: 171px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 217px;
+    padding-bottom: 217px;
+    width: 33.17%;
+    position: relative;
+
+    // width: unset;
+    // min-width: 398px;
+
+    // &::before {
+    //   background-image: url('../images/charity/charity-left-art.png');
+    //   background-repeat: no-repeat;
+    //   background-size: contain;
+    //   position: absolute;
+    //   content: '';
+
+    //   width: 390px;
+    //   height: 100%;
+    //   // left: calc(100% - 390px / 2 - 765px);
+    //   top: 0px;
+    //   right: 400px;
+    // }
+  }
+  @media screen and (min-width: 1300px) {
+    width: 39.48%;
+  }
+}
+
+.charity-art-wrapper {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 390px;
+    height: 879px;
+    top: 0;
+    right: 398px;
+    object-fit: contain;
+    position: absolute;
+  }
+}
+
+// .charity-art-img {
+//   @media screen and (min-width: 1200px) {
+//     width: 390px;
+//     height: 879px;
+//     object-fit: contain;
+//     position: absolute;
+//   }
+// }
+
+.charity__text-content-wrapper {
+  padding-right: 16px;
+  padding-left: 16px;
+  @media screen and (min-width: 576px) {
+    padding-left: 64px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-left: 0px;
+    margin-left: auto;
+    width: 356px;
+    padding-right: 24px;
+  }
+}
+
+.charity__section-title {
+  margin-bottom: 16px;
+  font-family: var(--second-font);
+  @include font(400, 16px, 18px);
+  color: var(--base-white-color);
+
+  @media screen and (min-width: 1200px) {
+    @include font(400, 20px, 22px);
+  }
+}
+
+.charity__section-subtitle {
+  margin-bottom: 32px;
+  font-family: var(--second-font);
+  @include font(400, 20px, 22px);
+  color: var(--base-white-color);
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 48px;
+
+    @include font(400, 39px, 43px);
+  }
+}
+
+.charity__text {
+  font-family: var(--third-font);
+  @include font(400, 13px, 17px);
+  color: var(--base-white-color);
+
+  &:not(:last-child) {
+    margin-bottom: 17px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include font(400, 16px, 21px);
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+}
+
+///right column
+.charity__form-column {
+  width: 100%;
+
+  padding-top: 64px;
+  padding-bottom: 128px;
+
+  background-repeat: no-repeat;
+  // background-position-x: left;
+  background-position: center;
+  // background-position: bottom;
+  background-size: cover;
+  // background-size: 100% 100%;
+
+  // text-align: center;
+
+  background-image: url('../images/charity/charity-form-bg.jpg');
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+    screen and (min-resolution: 192dpi) and (min-width: 280px),
+    screen and (min-resolution: 2dppx) and (min-width: 280px) {
+    background-image: url('../images/charity/charity-form-bg@2x.jpg');
+  }
+
+  @media screen and (min-width: 576px) {
+    width: calc(100% - 288px);
+    padding-bottom: 64px;
+  }
+  @media screen and (min-width: 768px) {
+    width: calc(100% - 384px);
+    padding-top: 64px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 113px;
+    padding-bottom: 113px;
+    width: 66.83%;
+    padding-left: 119px;
+  }
+  @media screen and (min-width: 1300px) {
+    width: 60.52%;
+  }
+}
+
+.charity__form-wrapper {
+  padding-right: 16px;
+  padding-left: 16px;
+  @media screen and (min-width: 576px) {
+    padding-right: 32px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 336px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 641px;
+    padding-left: unset;
+    padding-right: 0;
+  }
+}
+
+.charity__form {
+  padding: 32px 16px;
+
+  background: rgba(37, 45, 56, 0.75);
+  backdrop-filter: blur(8px);
+
+  border-radius: 4px;
+  @media screen and (min-width: 576px) {
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    padding-top: 48.5px;
+    padding-bottom: 48.5px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+    height: 653px;
+    padding: 64px;
+  }
+}
+
+.charity__form-title {
+  margin-bottom: 16px;
+  font-family: var(--second-font);
+  @include font(400, 20px, 22px);
+  color: var(--base-white-color);
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 46px;
+    @include font(400, 31px, 34px);
+  }
+}
+
+.charity__form-text {
+  margin-bottom: 24px;
+  font-family: var(--third-font);
+  @include font(400, 13px, 17px);
+  color: var(--base-white-color);
+  @media screen and (min-width: 1200px) {
+    @include font(400, 20px, 26px);
+  }
+}
+
+.charity__form-inputs-wrapper {
+  margin-bottom: 24px;
+}
+
+.consult-form__input-wrapper {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// .charity__extra-margin {
+//   margin-bottom: 24px;
+// }
+
+.consult-form__input {
+  width: 100%;
+
+  padding: 16px;
+  padding-left: 38px;
+  background-color: var(--base-white-color);
+
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  color: rgba(53, 50, 50, 0.5);
+  transition: border-color 250ms var(--cubic);
+
+  &::placeholder {
+    font-family: var(--first-font);
+    @include font(400, 13px, 20px);
+    text-transform: uppercase;
+    color: rgba(53, 50, 50, 0.5);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--base-accent-colore-source);
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    padding-left: 60px;
+
+    &::placeholder {
+      font-weight: 700;
+    }
+  }
+}
+
+.consult-form-icon {
+  position: absolute;
+
+  top: 50%;
+  left: 16px;
+  width: 14px;
+  height: 14px;
+  transform: translateY(-50%);
+
+  fill: rgba(53, 50, 50, 0.75);
+  transition: fill 250ms var(--cubic);
+
+  .consult-form__input:focus + & {
+    fill: var(--base-accent-colore-source);
+  }
+
+  @media screen and (min-width: 1200px) {
+    left: 32px;
+  }
+}
+
+.consult-form__checkboxes-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 32px;
+  padding: 0;
+
+  border: none;
+
+  // font-family: var(--first-font);
+  // @include font(700, 13px, 20px);
+  // color: var(--base-color-white-200);
+  // text-transform: uppercase;
+}
+
+.check-fields-wrapper {
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.consult-checkbox-label {
+  font-family: var(--first-font);
+  @include font(700, 13px, 20px);
+  color: var(--base-color-white-200);
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+
+  // &:not(:last-child) {
+  //   margin-bottom: 16px;
+  // }
+  &::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    /* Checkbox/Stroke/NotActive/Default */
+
+    border: 1.5px solid #e6e6e6;
+    /* Shadow/xs */
+
+    box-shadow: 0px 3px 4px -5px rgba(24, 24, 28, 0.03),
+      0px 1px 2px rgba(24, 24, 28, 0.04);
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin-right: 10px;
+
+    transition: background-color 250ms var(--cubic),
+      border-color 250ms var(--cubic);
+  }
+  .consult-form__checkbox:focus + &::before,
+  .consult-form__checkbox:hover + &::before {
+    border-color: var(--accent-blue-checked-color);
+    background-color: #d7e3fc;
+  }
+  .consult-form__checkbox:checked + &::before {
+    background-image: url(../images/charity/checked.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: var(--accent-blue-checked-color);
+    border-color: var(--accent-blue-checked-color);
+    background-origin: border-box;
+  }
+  .consult-form__checkbox:checked:focus + &::before,
+  .consult-form__checkbox:checked:hover + &::before {
+    background-color: #1650cf;
+    border-color: #1650cf;
+  }
+}
+
+.consult-form__button {
+  width: 100%;
+
+  @media screen and (min-width: 1200px) {
+    padding-right: 24px;
+    padding-left: 24px;
+    @include font(400, 16px, 24px);
+  }
+}
