@@ -1,0 +1,108 @@
+<section class="charity-section">
+  <div class="charity-container">
+    <div class="charity__text-column">
+      <div class="charity-art-wrapper">
+        <img
+          class="charity-art-img"
+          src="./images/charity/charity-left-art.png"
+          alt="декоративна картинка будівлі"
+          width="390"
+          height="879"
+        />
+      </div>
+      <div class="charity__text-content-wrapper">
+        <h2 class="charity__section-title">Благодійний проєкт</h2>
+        <h3 class="charity__section-subtitle">«Зруйновані, але незламні»</h3>
+        <p class="charity__text">
+          Зусиллями команди ми допомагаємо ставати рідному місту Чортків
+          гарнішим. Але я відчуваю, що можна робити більше. Особливо сьогодні,
+          коли так багато українців вимушені відбудовувати свої домівки та
+          бізнес. Мені є чим ділитися, і я хочу допомогти.
+        </p>
+        <p class="charity__text">
+          Також запрошуємо долучитись архітекторів, покрівельників, виконробів,
+          керівників благодійних фондів та всіх, хто готовий взяти участь і
+          допомогти постраждалим в цьому проєкт!
+        </p>
+      </div>
+    </div>
+
+    <div class="charity__form-column">
+      <div class="charity__form-wrapper">
+        <form class="charity__form">
+          <h2 class="charity__form-title">Безкоштовна консультація</h2>
+          <p class="charity__form-text">
+            Отримайте безкоштовну консультацію по відновленню пошкодженого даху
+            внаслідок бойових дій.
+          </p>
+
+          <div class="charity__form-inputs-wrapper">
+            <span class="consult-form__input-wrapper">
+              <input
+                class="consult-form__input"
+                type="text"
+                required
+                name="user-name"
+                minlength="2"
+                pattern="[a-zA-Zа-яёА-ЯЁ]+"
+                title="Імʼя має містити символи кириліці або латиниці"
+                placeholder="Ваше імʼя"
+              />
+              <svg class="consult-form-icon" width="14px" height="14px">
+                <use href="./images/sprite.svg#account"></use>
+              </svg>
+            </span>
+
+            <span class="consult-form__input-wrapper charity__extra-margin">
+              <input
+                class="consult-form__input"
+                type="tel"
+                required
+                name="user-phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="096-000-00-00"
+                placeholder="Телефон"
+              />
+              <svg class="consult-form-icon" width="14px" height="14px">
+                <use href="./images/sprite.svg#phone"></use>
+              </svg>
+            </span>
+          </div>
+
+          <fieldset class="consult-form__checkboxes-wrapper">
+            <span class="check-fields-wrapper">
+              <input
+                type="checkbox"
+                name="roof-consultation"
+                class="consult-form__checkbox visually-hidden"
+                id="roof-consultation"
+              />
+              <label for="roof-consultation" class="consult-checkbox-label">
+                Консультація щодо даху
+              </label>
+            </span>
+
+            <span class="check-fields-wrapper"
+              ><input
+                type="checkbox"
+                name="join-project"
+                class="consult-form__checkbox visually-hidden"
+                id="join-project"
+              />
+              <label for="join-project" class="consult-checkbox-label">
+                Хочу приєднатись до проєкту
+              </label></span
+            >
+          </fieldset>
+
+          <button class="button mail__button consult-form__button">
+            <span class="mail__button-text">Надіслати заявку</span>
+            <svg class="mail-btn__icon" width="18px" height="18px">
+              <use href="./images/sprite.svg#mail-fill"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
