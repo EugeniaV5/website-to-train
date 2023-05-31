@@ -1,0 +1,214 @@
+<section class="showcases__section">
+  <div class="showcase-container">
+    <div class="showcases__download-label-wrapper">
+      <div class="showcases__download-label">
+        <svg class="download-svg" width="13.5px" height="13.5px">
+          <use href="./images/sprite.svg#download"></use>
+        </svg>
+        <span>Безкоштовне завантаження</span>
+      </div>
+    </div>
+
+    <div class="showcases__book-wrapper">
+      <div class="showcases__central-art-wrapper">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/showcases/showcases-central-art-1200.webp    1x,
+              ./images/showcases/showcases-central-art-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/showcases/showcases-central-art-1200.png    1x,
+              ./images/showcases/showcases-central-art-1200@2x.png 2x
+            " />
+          <source
+            media="(min-width: 576px)"
+            srcset="
+              ./images/showcases/showcases-central-art-576.webp    1x,
+              ./images/showcases/showcases-central-art-576@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 576px)"
+            srcset="
+              ./images/showcases/showcases-central-art-576.png    1x,
+              ./images/showcases/showcases-central-art-576@2x.png 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/showcases/showcases-central-art-320.webp    1x,
+              ./images/showcases/showcases-central-art-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/showcases/showcases-central-art-320.png    1x,
+              ./images/showcases/showcases-central-art-320@2x.png 2x
+            " />
+          <img
+            src="./images/showcases/showcases-central-art-320.png"
+            alt="Фото Книги"
+            class="book__img"
+            width="225px"
+            height="250px"
+        /></picture>
+      </div>
+      <button type="button" class="book-btn svg-btn showcases__book-btn">
+        <div class="book-btn__outter-outline">
+          <div class="book-btn__inner-outline">
+            <lord-icon
+              class="button__gif"
+              src="https://cdn.lordicon.com/kipaqhoz.json"
+              trigger="loop"
+              delay="2000"
+              colors="primary:#f3f3f3"
+              state="morph"
+              style="width: 30px; height: 30px"
+            >
+            </lord-icon>
+          </div>
+        </div>
+        <span>Дивитися зміст</span>
+      </button>
+    </div>
+
+    <div class="showcases__text-content-wrapper">
+      <div class="showcases__text-content__left-column">
+        <h2 class="section-title showcases-title">
+          Книга <span class="title-accent">&ldquo;pro дах&rdquo;</span>
+        </h2>
+        <p class="showcases__intro-paragraph">
+          Книга створена для тих, хто планує будівництво нового даху чи
+          перекриття старого.
+        </p>
+        <p class="showcases__text">
+          Ця книга — не інструкція з монтажу, а компас для розуміння
+          послідовності прийняття рішень та виконання робіт.
+        </p>
+        <p class="showcases__text-extra">
+          Враховуючи теперішню ситуацію і масштабність руйнувань, ця книга
+          допоможе Україні у відновленні. Тому зараз вона доступна
+          <span class="showcase__text-extra-accent"
+            >безоплатно в електронному форматі.</span
+          >
+        </p>
+      </div>
+      <div class="showcases__text-content__right-column">
+        <form action="#" class="showcases__consult-form">
+          <div class="showcases__form-wrapper">
+            <span
+              class="
+                consult-form__input-wrapper
+                showcases__consult-form__input-wrapper
+              "
+            >
+              <input
+                class="consult-form__input showcases__consult-form__input"
+                type="text"
+                required
+                name="user-name"
+                minlength="2"
+                pattern="[a-zA-Zа-яёА-ЯЁ]+"
+                title="Імʼя має містити символи кириліці або латиниці"
+                placeholder="Ваше імʼя"
+              />
+              <svg
+                class="consult-form-icon showcases__consult-form-icon"
+                width="14px"
+                height="14px"
+              >
+                <use href="./images/sprite.svg#account"></use>
+              </svg>
+            </span>
+
+            <span
+              class="
+                consult-form__input-wrapper
+                showcases__consult-form__input-wrapper
+              "
+            >
+              <input
+                class="consult-form__input showcases__consult-form__input"
+                type="tel"
+                required
+                name="user-phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="096-000-00-00"
+                placeholder="Телефон"
+              />
+              <svg
+                class="consult-form-icon showcases__consult-form-icon"
+                width="14px"
+                height="14px"
+              >
+                <use href="./images/sprite.svg#phone"></use>
+              </svg>
+            </span>
+
+            <span
+              class="
+                consult-form__input-wrapper
+                showcases__consult-form__input-wrapper
+              "
+            >
+              <input
+                class="consult-form__input showcases__consult-form__input"
+                type="email"
+                required
+                name="user-email"
+                placeholder="Email"
+              />
+              <svg
+                class="consult-form-icon showcases__consult-form-icon"
+                width="14px"
+                height="14px"
+              >
+                <use href="./images/sprite.svg#mail-fill"></use>
+              </svg>
+            </span>
+          </div>
+          <button class="button mail__button consult-form__button">
+            <span class="mail__button-text">Отримати книгу</span>
+          </button>
+        </form>
+
+        <div class="showcases__quote-wrapper">
+          <div class="showcases__avatar-wrapper">
+            <picture class="avatar__pic">
+              <source
+                media="(min-width: 320px)"
+                srcset="
+                  ./images/showcases/showcases-avatar.webp    1x,
+                  ./images/showcases/showcases-avatar@2x.webp 2x
+                "
+                type="image/webp" />
+              <source
+                media="(min-width: 320px)"
+                srcset="
+                  ./images/showcases/showcases-avatar.png    1x,
+                  ./images/showcases/showcases-avatar@2x.png 2x
+                " />
+              <img
+                src="./images/showcases/showcases-avatar.png"
+                alt="Аватар Михайла Яковенка"
+                class="avatar__img"
+                width="35px"
+                height="35px"
+            /></picture>
+          </div>
+          <p class="showcases__quote-text">
+            Цією книгою я хочу донести до читачів ідею професіоналізму і
+            цінності роботи покрівельника, пропагандую будувати правильно та зі
+            спеціалістами своєї справи.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
