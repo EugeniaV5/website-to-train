@@ -1,0 +1,173 @@
+<div class="book-page" id="book-page" style="display: none">
+  <div class="book-page__container">
+    <div class="card__close-btn-wrapper">
+      <button type="button" class="card__close-btn" data-fancybox-close>
+        <svg class="card__close-btn__icon" width="24px" height="24px">
+          <use href="./images/sprite.svg#close-icon"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="book__text-wrapper">
+      <h2 class="section-title card-title">
+        Книга <span class="title-accent">&ldquo;pro дах&rdquo;</span>
+      </h2>
+
+      <p class="card-sub-titile book__sub-title">
+        Книга створена для тих, хто планує будівництво нового даху чи перекриття
+        старого.
+      </p>
+
+      <p class="service-card__text book__card-text">
+        Ця книга — не інструкція з монтажу, а компас для розуміння послідовності
+        прийняття рішень та виконання робіт.
+      </p>
+      <p class="card__extra-style">Ви знайдете відповіді на такі питання:</p>
+      <ul class="card__list book__list">
+        <li>Етапи будівництва даху</li>
+        <li>Підготовка до ремонту та реконструкції</li>
+        <li>Проєкт будівництва даху — потрібен чи ні</li>
+        <li>Вибір покрівельних матеріалів</li>
+        <li>
+          Опис архітектурних стилів будинків, які поширені в Україні + фото та
+          відео реалізованих об'єктів. Інтерв’ю з архітекторами про плюси та
+          мінуси кожного стилю
+        </li>
+        <li>Міфи про дахи</li>
+      </ul>
+      <p class="book__paragraph-extra">
+        Окрім того, майже в кожному розділі додані поради та чек-листів із
+        практичного досвіду.
+      </p>
+    </div>
+    <div class="book__query-wrapper">
+      <div class="book__query-picture-wrapper">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/book-page/book-page-art-1200.webp    1x,
+              ./images/book-page/book-page-art-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/book-page/book-page-art-1200.png    1x,
+              ./images/book-page/book-page-art-1200@2x.png 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/book-page/book-page-art-320.webp    1x,
+              ./images/book-page/book-page-art-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/book-page/book-page-art-320.png    1x,
+              ./images/book-page/book-page-art-320@2x.png 2x
+            " />
+          <img
+            src="./images/book-page/book-page-art-320.png"
+            alt="Фото Книги"
+            class="book-page__img"
+            width="145px"
+            height="198px"
+        /></picture>
+      </div>
+      <div class="book__query-formats">
+        <p>Формат:<span class="book__query-formats-info"> PDF</span></p>
+        <p>
+          Кількість сторінок:<span class="book__query-formats-info"> 154</span>
+        </p>
+        <p>Об `єм:<span class="book__query-formats-info"> 2,3 мб</span></p>
+      </div>
+      <div class="book__query-form-wrapper">
+        <form action="#" class="showcases__consult-form book__query-form">
+          <div class="showcases__form-wrapper book__inputs-wrapper">
+            <span
+              class="
+                consult-form__input-wrapper
+                showcases__consult-form__input-wrapper
+                book__form-input-wrapper
+              "
+            >
+              <input
+                class="consult-form__input showcases__consult-form__input"
+                type="text"
+                required
+                name="user-name"
+                minlength="2"
+                pattern="[a-zA-Zа-яёА-ЯЁ]+"
+                title="Імʼя має містити символи кириліці або латиниці"
+                placeholder="Ваше імʼя"
+              />
+              <svg
+                class="consult-form-icon showcases__consult-form-icon"
+                width="14px"
+                height="14px"
+              >
+                <use href="./images/sprite.svg#account"></use>
+              </svg>
+            </span>
+
+            <span
+              class="
+                consult-form__input-wrapper
+                showcases__consult-form__input-wrapper
+                book__form-input-wrapper
+              "
+            >
+              <input
+                class="consult-form__input showcases__consult-form__input"
+                type="tel"
+                required
+                name="user-phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="096-000-00-00"
+                placeholder="Телефон"
+              />
+              <svg
+                class="consult-form-icon showcases__consult-form-icon"
+                width="14px"
+                height="14px"
+              >
+                <use href="./images/sprite.svg#phone"></use>
+              </svg>
+            </span>
+
+            <span
+              class="
+                consult-form__input-wrapper
+                showcases__consult-form__input-wrapper
+                book__form-input-wrapper
+              "
+            >
+              <input
+                class="consult-form__input showcases__consult-form__input"
+                type="email"
+                required
+                name="user-email"
+                placeholder="Email"
+              />
+              <svg
+                class="consult-form-icon showcases__consult-form-icon"
+                width="14px"
+                height="14px"
+              >
+                <use href="./images/sprite.svg#mail-fill"></use>
+              </svg>
+            </span>
+          </div>
+          <button class="button mail__button consult-form__button">
+            <span class="mail__button-text">Отримати книгу</span>
+            <svg class="mail-btn__icon" width="18px" height="18px">
+              <use href="./images/sprite.svg#mail-fill"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

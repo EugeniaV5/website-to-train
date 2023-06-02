@@ -1,0 +1,143 @@
+.book-page {
+  width: 304px;
+  //   height: 1220px;
+
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  margin-left: auto;
+
+  padding: 16px;
+
+  background-color: var(--base-color-graphite-300);
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+    width: 1116px;
+    // height: 750px;
+    top: unset;
+    right: unset;
+    margin-left: unset;
+
+    overflow: none;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+}
+.book-page__container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    width: 1116px;
+    height: 750px;
+  }
+}
+
+.book__text-wrapper {
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+    padding-top: 95px;
+    padding-right: 119px;
+    padding-bottom: 95px;
+    padding-left: 95px;
+  }
+}
+
+.card-title {
+  color: var(--dark-bg-color);
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 16px;
+  }
+}
+
+.book__sub-title {
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 16px;
+  }
+}
+
+.book__card-text {
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 16px;
+  }
+}
+// .book__paragraph {
+//   margin-bottom: 16px;
+//   font-family: var(--first-font);
+//   @include font(400, 13px, 20px);
+//   color: var(--dark-bg-color);
+// }
+
+.book__list {
+  margin-bottom: 8px;
+}
+
+.book__paragraph-extra {
+  margin-bottom: 32px;
+
+  font-family: var(--first-font);
+  @include font(400, 13px, 20px);
+  color: var(--dark-bg-color);
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    @include font(400, 16px, 24px);
+  }
+}
+
+.book__query-wrapper {
+  padding: 32px 16px;
+  background-color: var(--base-white-color);
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+    padding-top: 63px;
+    padding-right: 95px;
+    padding-bottom: 56px;
+    padding-left: 95px;
+  }
+}
+
+.book__query-picture-wrapper {
+  margin-bottom: 16px;
+}
+
+.book-page__img {
+  display: block;
+  margin: 0 auto;
+  @media screen and (min-width: 1200px) {
+    width: 193px;
+    height: auto;
+  }
+}
+
+.book__query-formats {
+  margin-bottom: 45px;
+  font-family: var(--first-font);
+  @include font(400, 13px, 20px);
+  color: var(--dark-bg-color);
+}
+
+.book__query-formats-info {
+  color: var(--base-color-graphite-500);
+}
+
+.book__query-form {
+  margin-bottom: 0;
+}
+
+.book__inputs-wrapper {
+  @media screen and (min-width: 1200px) {
+    flex-direction: column;
+  }
+}
+
+.book__form-input-wrapper {
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 8px;
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+}
