@@ -58,7 +58,7 @@
 }
 .card {
   width: 288px;
-  height: 100vh;
+  // height: 100vh;
 
   position: fixed;
   z-index: 999;
@@ -71,7 +71,7 @@
   padding-right: 16px;
   padding-left: 16px;
 
-  overflow: scroll;
+  // overflow: scroll;
 
   background-color: var(--base-color-graphite-300);
 
@@ -84,6 +84,10 @@
     margin-left: unset;
 
     overflow: none;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 
     // transform: translate(-50%, -50%);
   }
@@ -92,6 +96,12 @@
 // .card__container {
 //   //   padding-right: 16px;
 //   //   padding-left: 16px;
+//   @media screen and (min-width: 1200px) {
+//     display: flex;
+//     flex-direction: row-reverse;
+//     width: 1116px;
+//     height: 750px;
+//   }
 // }
 .f-button {
   display: none;
@@ -123,6 +133,8 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: row-reverse;
+    // width: 1116px;
+    // height: 750px;
   }
 }
 
