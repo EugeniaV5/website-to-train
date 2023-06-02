@@ -16,6 +16,7 @@
     padding-left: 64px;
   }
   @media screen and (min-width: 1200px) {
+    width: 1200px;
     padding-right: 42px;
     padding-left: 42px;
   }
@@ -189,14 +190,14 @@
   }
 
   &:hover::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    // content: '';
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
     opacity: 0;
-    visibility: hidden;
+    // visibility: hidden;
   }
 }
 
