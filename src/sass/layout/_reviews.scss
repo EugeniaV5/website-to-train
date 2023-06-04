@@ -35,6 +35,9 @@
 .reviews__title {
   margin-bottom: 32px;
   color: var(--base-white-color);
+  @media screen and (min-width: 1200px) {
+    @include font(400, 31px, 34px);
+  }
 }
 
 .swiper-wrapper {

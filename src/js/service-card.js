@@ -14,6 +14,8 @@
 //     // refs.backdrop.classList.toggle('is-hidden');
 //   }
 // })();
+// Fancybox.defaults.showClass = 'transform: translateX(100%)
+// ';
 
 Fancybox.bind('[data-fancybox]', {
   // Your custom options
