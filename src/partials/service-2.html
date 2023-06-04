@@ -1,71 +1,122 @@
-<!-- <div class="card" data-card> -->
-<!-- <div class="body-overlay"></div> -->
-<!-- <div class="card__container">
+<div class="card card-2" id="modal-service-2" style="display: none">
+  <div class="body-overlay"></div>
+  <div class="card__container">
     <div class="card__close-btn-wrapper">
-      <button class="card__close-btn" data-card-close>
+      <button class="card__close-btn" data-fancybox-close>
         <svg class="card__close-btn__icon" width="24px" height="24px">
           <use href="./images/sprite.svg#close-icon"></use>
         </svg>
       </button>
     </div>
+    <div class="card__content-wrapper">
+      <div class="card__picture-wrapper">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/card/card2-img-1200.webp    1x,
+              ./images/card/card2-img-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/card/card2-img-1200.jpg    1x,
+              ./images/card/card2-img-1200@2x.jpg 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/card/card2-img-320.webp    1x,
+              ./images/card/card2-img-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/card/card2-img-320.jpg    1x,
+              ./images/card/card2-img-320@2x.jpg 2x
+            " />
+          <img
+            src="./images/card/card2-img-320.jpg"
+            alt="Фото підприємця"
+            class="card__img"
+            width="256px"
+            height="200px"
+        /></picture>
+      </div>
+      <div class="card__text-wrapper card-2__text-wrapper">
+        <h2 class="section-title card-title">
+          Організуй власний покрівельний бізнес
+        </h2>
+        <h3 class="card-sub-titile">
+          Курс «Як заробляти на будівництві дахів від 100 000 грн в місяць»
+        </h3>
+        <p class="service-card__text">
+          Будівельний бізнес завжди розвивався. А враховуючи майбутній попит на
+          такі послуги при відновленні після перемоги, зараз найкращий час, щоб
+          підготуватись.
+        </p>
+        <p class="service-card__text">
+          Бізнес у сфері будівництва дахів цікавий з кількох причин:
+        </p>
+        <ul class="card__list service-card__text">
+          <li class="card__list-item">
+            Дах надає завершеної форми будинку, формує стиль. Цим ви створюєте
+            красоту вулиці, свого міста, України в цілому;
+          </li>
+          <li class="card__list-item">
+            Невеликий вхід у бізнес: орендований офіс, купівля оргтехніки,
+            автотранспорт за потреби;
+          </li>
+          <li class="card__list-item">
+            Клієнт купляє все в комплексі: від покрівельного матеріалу до
+            саморізів, на яких ви додатково заробляєте;
+          </li>
+          <li class="card__list-item">
+            Перспективність розвитку й масштабування.
+          </li>
+        </ul>
+        <p class="service-card__text">
+          Тому я створив курс, який допоможе реалізувати все перелічене. Як
+          результат ви дізнаєтесь про систему, яка буде заробляти вам гроші.
+        </p>
+        <p class="service-card__text card-2-bold-text">Програма курсу:</p>
+        <ol class="card__list card-2__list service-card__text">
+          <li class="card__list-item">
+            Ознайомлення із потенційним ринком діяльності.
+          </li>
+          <li class="card__list-item">Побудова відділу продажу з «0».</li>
+          <li class="card__list-item">
+            Маркетинг. Опис цільової аудиторії. Система залучення лідів: макети,
+            чат-боти, сайт.
+          </li>
+          <li class="card__list-item">
+            Процес роботи: замір та розрахунок матеріалів для будівництва чи
+            перекриття даху. Наймання та контроль працівників.
+          </li>
+          <li class="card__list-item">
+            Партнерство: де і як купувати матеріали.
+          </li>
+          <li class="card__list-item">
+            Технології та стандарти: посадові інструкції, стандарти поведінки,
+            договори та ін.
+          </li>
+          <li class="card__list-item">
+            Планування діяльності підприємства, аналітика.
+          </li>
+        </ol>
 
-    <div class="card__picture-wrapper">
-      <picture>
-        <source
-          media="(min-width: 320px)"
-          srcset="
-            ./images/card/card-img-320.webp    1x,
-            ./images/card/card-img-320@2x.webp 2x
-          "
-          type="image/webp" />
-        <source
-          media="(min-width: 320px)"
-          srcset="
-            ./images/card/card-img-320.jpg    1x,
-            ./images/card/card-img-320@2x.jpg 2x
-          " />
-        <img
-          src="./images/card/card-img-320.jpg"
-          alt="Фото даху будинка"
-          class="card__img"
-          width="256px"
-          height="200px"
-      /></picture>
+        <p class="service-card__text card-2-bold-text">
+          Окрім цього можливий особистий супровід.
+        </p>
+        <button class="button mail__button">
+          <span class="mail__button-text">НАДІСЛАТИ ЗАЯВКУ</span>
+          <svg class="mail-btn__icon" width="18px" height="18px">
+            <use href="./images/sprite.svg#mail-fill"></use>
+          </svg>
+        </button>
+      </div>
     </div>
-    <h2 class="section-title card-title">Збудуй свій дах професійно</h2>
-    <h3 class="card-sub-titile">
-      Перекриття вашого даху від проєкту до реалізації
-    </h3>
-    <p class="service-card__text">
-      Будівництво нового даху, перекриття наявного чи облаштування горища в
-      житлову мансарду — складний процес, який вимагає врахування безлічі
-      технічних рішень, про які людина, що не є спеціалістом, навіть не
-      здогадується.
-    </p>
-    <p class="service-card__text">
-      Понад 16 років я спеціалізуюсь на покрівельній справі, є засновником
-      торговельно-монтажної компанії «Нове місто». Разом з командою професійних
-      покрівельників допоможу збудувати красивий та надійний дах:
-    </p>
-    <ul class="card__list service-card__text">
-      <li class="card__list-item">
-        Розробка проєкту даху для реконструкції горища під житло чи комерційну
-        діяльність
-      </li>
-      <li class="card__list-item">Будівництво чи перекриття даху «під ключ»</li>
-      <li class="card__list-item">
-        Реконструкція горища в комерційне приміщення чи житлову мансарду
-      </li>
-      <li class="card__list-item">
-        Підбір та доставлення матеріалів для даху (металочерепиця, профнастил,
-        бітумна черепиця та ін.)
-      </li>
-    </ul>
-    <button class="button mail__button">
-      <span class="mail__button-text">НАДІСЛАТИ ЗАЯВКУ</span>
-      <svg class="mail-btn__icon" width="18px" height="18px">
-        <use href="./images/sprite.svg#mail-fill"></use>
-      </svg>
-    </button>
   </div>
-</div> -->
+</div>
