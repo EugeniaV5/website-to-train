@@ -19,6 +19,7 @@
   width: 100%;
   //   width: 1200px;
   overflow: hidden;
+  width: 100%;
 
   position: relative;
   //   max-width: 1200px;
@@ -29,7 +30,51 @@
   @media screen and (min-width: 1200px) {
     padding-right: 42px;
     padding-left: 42px;
+    margin: 0 auto;
+    min-width: 1116px;
+    width: 1200px;
+    // padding-left: 0px;
+    // padding-right: 0px;
   }
+}
+
+.reviews__title-wrapper {
+  @media screen and (min-width: 1200px) {
+    width: 1116px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.swiper-buttons {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    // top: 0;
+  }
+}
+.swiper-button-prev {
+  display: block;
+  // position: relative;
+  margin: 0;
+  padding: 16px;
+  width: 50px;
+  height: 50px;
+  background: rgba(243, 243, 243, 0.25);
+  border-radius: 4px;
+  &::after {
+    display: block;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    // position: absolute;
+  }
+}
+.swiper-button-prev {
+  width: 50px;
+  height: 50px;
 }
 
 .reviews__title {
@@ -40,16 +85,28 @@
   }
 }
 
-.swiper-wrapper {
+.reviews__articles-wrapper {
+  width: 1071px;
   display: flex;
-  width: 1200px;
-}
+  justify-content: start;
 
-.swiper-slide {
-  &:not(:last-child) {
-    margin-right: 24px;
+  margin: 0;
+
+  @media screen and (min-width: 1200px) {
+    width: 1116px;
+    // justify-content: center;
   }
 }
+// .swiper-wrapper {
+//   display: flex;
+//   width: 1200px;
+// }
+
+// .swiper-slide {
+//   &:not(:last-child) {
+//     margin-right: 24px;
+//   }
+// }
 .reviews__card {
   position: relative;
   display: flex;

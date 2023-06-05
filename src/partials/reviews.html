@@ -1,322 +1,309 @@
 <section class="reviews-section">
-  <div class="container reviews-container">
+  <div class="container reviews-container swiper">
+    <!-- <div class="reviews__title-wrapper"> -->
     <h2 class="section-title reviews__title">Відео-відгуки клієнтів</h2>
-    <div class="swiper">
-      <!-- If we need navigation buttons -->
-      <div class="reviews__pagination">
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-buttons">
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
+    </div> -->
+    <!-- Slides -->
+    <div class="swiper-wrapper reviews__articles-wrapper">
+      <!-- 1 slide -->
 
-      <!-- Slides -->
-      <ul class="swiper-wrapper list">
-        <!-- 1 slide -->
+      <article class="reviews__card swiper-slide">
+        <picture class="reviews__card-pic">
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.webp    1x,
+              ./images/reviews/review-1-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.jpg    1x,
+              ./images/reviews/review-1-1200@2x.jpg 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.webp    1x,
+              ./images/reviews/review-1-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.jpg    1x,
+              ./images/reviews/review-1-320@2x.jpg 2x
+            " />
+          <img
+            src="./images/reviews/review-1-320.jpg"
+            alt="Courtney Henry"
+            class="review__img"
+            width="356px"
+            height="378px"
+        /></picture>
+        <h3 class="card__title">Courtney Henry</h3>
+        <p class="card__text">
+          Love their drink specials. Bartenders super nice. Spent a week at UCSF
+          and this was a very nice break for the parental unit.
+        </p>
+        <button class="card__button" type="button">
+          <span class="card__button-text">Відтворити</span>
+          <svg class="card__button-svg" width="18px" height="18px">
+            <use href="./images/sprite.svg#play"></use>
+          </svg>
+        </button>
+      </article>
 
-        <li class="swiper-slide">
-          <article class="reviews__card">
-            <picture class="reviews__card-pic">
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-1-1200.webp    1x,
-                  ./images/reviews/review-1-1200@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-1-1200.jpg    1x,
-                  ./images/reviews/review-1-1200@2x.jpg 2x
-                " />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-1-320.webp    1x,
-                  ./images/reviews/review-1-320@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-1-320.jpg    1x,
-                  ./images/reviews/review-1-320@2x.jpg 2x
-                " />
-              <img
-                src="./images/reviews/review-1-320.jpg"
-                alt="Courtney Henry"
-                class="review__img"
-                width="356px"
-                height="378px"
-            /></picture>
-            <h3 class="card__title">Courtney Henry</h3>
-            <p class="card__text">
-              Love their drink specials. Bartenders super nice. Spent a week at
-              UCSF and this was a very nice break for the parental unit.
-            </p>
-            <button class="card__button" type="button">
-              <span class="card__button-text">Відтворити</span>
-              <svg class="card__button-svg" width="18px" height="18px">
-                <use href="./images/sprite.svg#play"></use>
-              </svg>
-            </button>
-          </article>
-        </li>
+      <!-- 2 slide -->
 
-        <!-- 2 slide -->
+      <article class="reviews__card swiper-slide">
+        <picture class="reviews__card-pic">
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.webp    1x,
+              ./images/reviews/review-1-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.jpg    1x,
+              ./images/reviews/review-1-1200@2x.jpg 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.webp    1x,
+              ./images/reviews/review-1-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.jpg    1x,
+              ./images/reviews/review-1-320@2x.jpg 2x
+            " />
+          <img
+            src="./images/reviews/review-1-320.jpg"
+            alt="Pablo Codjo"
+            class="review__img"
+            width="356px"
+            height="378px"
+        /></picture>
+        <h3 class="card__title">Pablo Codjo</h3>
+        <p class="card__text">Keren seperti namanya 👍</p>
+        <button class="card__button" type="button">
+          <span class="card__button-text">Відтворити</span>
+          <svg class="card__button-svg" width="18px" height="18px">
+            <use href="./images/sprite.svg#play"></use>
+          </svg>
+        </button>
+      </article>
 
-        <li class="swiper-slide">
-          <article class="reviews__card">
-            <picture class="reviews__card-pic">
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-2-1200.webp    1x,
-                  ./images/reviews/review-2-1200@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-2-1200.jpg    1x,
-                  ./images/reviews/review-2-1200@2x.jpg 2x
-                " />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-2-320.webp    1x,
-                  ./images/reviews/review-2-320@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-2-320.jpg    1x,
-                  ./images/reviews/review-2-320@2x.jpg 2x
-                " />
-              <img
-                src="./images/reviews/review-2-320.jpg"
-                alt="Pablo Codjo"
-                class="review__img"
-                width="356px"
-                height="378px"
-            /></picture>
-            <h3 class="card__title">Pablo Codjo</h3>
-            <p class="card__text">Keren seperti namanya 👍</p>
-            <button class="card__button" type="button">
-              <span class="card__button-text">Відтворити</span>
-              <svg class="card__button-svg" width="18px" height="18px">
-                <use href="./images/sprite.svg#play"></use>
-              </svg>
-            </button>
-          </article>
-        </li>
+      <!-- 3 slide -->
+      <article class="reviews__card swiper-slide">
+        <picture class="reviews__card-pic">
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.webp    1x,
+              ./images/reviews/review-1-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.jpg    1x,
+              ./images/reviews/review-1-1200@2x.jpg 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.webp    1x,
+              ./images/reviews/review-1-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.jpg    1x,
+              ./images/reviews/review-1-320@2x.jpg 2x
+            " />
+          <img
+            src="./images/reviews/review-1-320.jpg"
+            alt="Jerome Bell"
+            class="review__img"
+            width="356px"
+            height="378px"
+        /></picture>
+        <h3 class="card__title">Jerome Bell</h3>
+        <p class="card__text">
+          Dateng juga akhirnya yang ditunggu2. Enakkkk. Baru pertama kali beli.
+          Sampenya juga cepettt 😊 thanksss.
+        </p>
+        <button class="card__button" type="button">
+          <span class="card__button-text">Відтворити</span>
+          <svg class="card__button-svg" width="18px" height="18px">
+            <use href="./images/sprite.svg#play"></use>
+          </svg>
+        </button>
+      </article>
 
-        <!-- 3 slide -->
-        <li class="swiper-slide">
-          <article class="reviews__card">
-            <picture class="reviews__card-pic">
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-3-1200.webp    1x,
-                  ./images/reviews/review-3-1200@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-3-1200.jpg    1x,
-                  ./images/reviews/review-3-1200@2x.jpg 2x
-                " />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-1-320.webp    1x,
-                  ./images/reviews/review-1-320@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-1-320.jpg    1x,
-                  ./images/reviews/review-1-320@2x.jpg 2x
-                " />
-              <img
-                src="./images/reviews/review-1-320.jpg"
-                alt="Jerome Bell"
-                class="review__img"
-                width="356px"
-                height="378px"
-            /></picture>
-            <h3 class="card__title">Jerome Bell</h3>
-            <p class="card__text">
-              Dateng juga akhirnya yang ditunggu2. Enakkkk. Baru pertama kali
-              beli. Sampenya juga cepettt 😊 thanksss.
-            </p>
-            <button class="card__button" type="button">
-              <span class="card__button-text">Відтворити</span>
-              <svg class="card__button-svg" width="18px" height="18px">
-                <use href="./images/sprite.svg#play"></use>
-              </svg>
-            </button>
-          </article>
-        </li>
+      <!-- 4 slide -->
+      <article class="reviews__card swiper-slide">
+        <picture class="reviews__card-pic">
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.webp    1x,
+              ./images/reviews/review-1-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.jpg    1x,
+              ./images/reviews/review-1-1200@2x.jpg 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.webp    1x,
+              ./images/reviews/review-1-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.jpg    1x,
+              ./images/reviews/review-1-320@2x.jpg 2x
+            " />
+          <img
+            src="./images/reviews/review-1-320.jpg"
+            alt="Ronald Richards"
+            class="review__img"
+            width="356px"
+            height="378px"
+        /></picture>
+        <h3 class="card__title">Ronald Richards</h3>
+        <p class="card__text">
+          Makasih banyak yaa... Dapet tambahan promo. Semoga berkah yaa
+          Aamiin... Ayo jangan ragu beli cemilan dimari ... 😊
+        </p>
+        <button class="card__button" type="button">
+          <span class="card__button-text">Відтворити</span>
+          <svg class="card__button-svg" width="18px" height="18px">
+            <use href="./images/sprite.svg#play"></use>
+          </svg>
+        </button>
+      </article>
 
-        <!-- 4 slide -->
-        <li class="swiper-slide">
-          <article class="reviews__card">
-            <picture class="reviews__card-pic">
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-2-1200.webp    1x,
-                  ./images/reviews/review-2-1200@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-2-1200.jpg    1x,
-                  ./images/reviews/review-2-1200@2x.jpg 2x
-                " />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-2-320.webp    1x,
-                  ./images/reviews/review-2-320@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-2-320.jpg    1x,
-                  ./images/reviews/review-2-320@2x.jpg 2x
-                " />
-              <img
-                src="./images/reviews/review-2-320.jpg"
-                alt="Ronald Richards"
-                class="review__img"
-                width="356px"
-                height="378px"
-            /></picture>
-            <h3 class="card__title">Ronald Richards</h3>
-            <p class="card__text">
-              Makasih banyak yaa... Dapet tambahan promo. Semoga berkah yaa
-              Aamiin... Ayo jangan ragu beli cemilan dimari ... 😊
-            </p>
-            <button class="card__button" type="button">
-              <span class="card__button-text">Відтворити</span>
-              <svg class="card__button-svg" width="18px" height="18px">
-                <use href="./images/sprite.svg#play"></use>
-              </svg>
-            </button>
-          </article>
-        </li>
+      <!-- 5 slide -->
+      <article class="reviews__card swiper-slide">
+        <picture class="reviews__card-pic">
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.webp    1x,
+              ./images/reviews/review-1-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.jpg    1x,
+              ./images/reviews/review-1-1200@2x.jpg 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.webp    1x,
+              ./images/reviews/review-1-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.jpg    1x,
+              ./images/reviews/review-1-320@2x.jpg 2x
+            " />
+          <img
+            src="./images/reviews/review-1-320.jpg"
+            alt="Bernard Agbahounde"
+            class="review__img"
+            width="356px"
+            height="378px"
+        /></picture>
+        <h3 class="card__title">Bernard Agbahounde</h3>
+        <p class="card__text">
+          Memuaskan, kamar yang bersih dan nyaman walau terhitung hotel/bangunan
+          lama. Namun kesan mewah masih bisa kami.
+        </p>
+        <button class="card__button" type="button">
+          <span class="card__button-text">Відтворити</span>
+          <svg class="card__button-svg" width="18px" height="18px">
+            <use href="./images/sprite.svg#play"></use>
+          </svg>
+        </button>
+      </article>
 
-        <!-- 5 slide -->
-        <li class="swiper-slide">
-          <article class="reviews__card">
-            <picture class="reviews__card-pic">
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-1-1200.webp    1x,
-                  ./images/reviews/review-1-1200@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-1-1200.jpg    1x,
-                  ./images/reviews/review-1-1200@2x.jpg 2x
-                " />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-1-320.webp    1x,
-                  ./images/reviews/review-1-320@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-1-320.jpg    1x,
-                  ./images/reviews/review-1-320@2x.jpg 2x
-                " />
-              <img
-                src="./images/reviews/review-1-320.jpg"
-                alt="Bernard Agbahounde"
-                class="review__img"
-                width="356px"
-                height="378px"
-            /></picture>
-            <h3 class="card__title">Bernard Agbahounde</h3>
-            <p class="card__text">
-              Memuaskan, kamar yang bersih dan nyaman walau terhitung
-              hotel/bangunan lama. Namun kesan mewah masih bisa kami.
-            </p>
-            <button class="card__button" type="button">
-              <span class="card__button-text">Відтворити</span>
-              <svg class="card__button-svg" width="18px" height="18px">
-                <use href="./images/sprite.svg#play"></use>
-              </svg>
-            </button>
-          </article>
-        </li>
-
-        <!-- 6 slide -->
-        <li class="swiper-slide">
-          <article class="reviews__card">
-            <picture class="reviews__card-pic">
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-2-1200.webp    1x,
-                  ./images/reviews/review-2-1200@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 1200px)"
-                srcset="
-                  ./images/reviews/review-2-1200.jpg    1x,
-                  ./images/reviews/review-2-1200@2x.jpg 2x
-                " />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-2-320.webp    1x,
-                  ./images/reviews/review-2-320@2x.webp 2x
-                "
-                type="image/webp" />
-              <source
-                media="(min-width: 320px)"
-                srcset="
-                  ./images/reviews/review-2-320.jpg    1x,
-                  ./images/reviews/review-2-320@2x.jpg 2x
-                " />
-              <img
-                src="./images/reviews/review-2-320.jpg"
-                alt="Ronald Richards"
-                class="review__img"
-                width="356px"
-                height="378px"
-            /></picture>
-            <h3 class="card__title">Ronald Richards</h3>
-            <p class="card__text">
-              Makasih banyak yaa... Dapet tambahan promo. Semoga berkah yaa
-              Aamiin... Ayo jangan ragu beli cemilan dimari ... 😊
-            </p>
-            <button class="card__button" type="button">
-              <span class="card__button-text">Відтворити</span>
-              <svg class="card__button-svg" width="18px" height="18px">
-                <use href="./images/sprite.svg#play"></use>
-              </svg>
-            </button>
-          </article>
-        </li>
-      </ul>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
+      <!-- 6 slide -->
+      <article class="reviews__card swiper-slide">
+        <picture class="reviews__card-pic">
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.webp    1x,
+              ./images/reviews/review-1-1200@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/reviews/review-1-1200.jpg    1x,
+              ./images/reviews/review-1-1200@2x.jpg 2x
+            " />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.webp    1x,
+              ./images/reviews/review-1-320@2x.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./images/reviews/review-1-320.jpg    1x,
+              ./images/reviews/review-1-320@2x.jpg 2x
+            " />
+          <img
+            src="./images/reviews/review-1-320.jpg"
+            alt="Ronald Richards"
+            class="review__img"
+            width="356px"
+            height="378px"
+        /></picture>
+        <h3 class="card__title">Ronald Richards</h3>
+        <p class="card__text">
+          Makasih banyak yaa... Dapet tambahan promo. Semoga berkah yaa
+          Aamiin... Ayo jangan ragu beli cemilan dimari ... 😊
+        </p>
+        <button class="card__button" type="button">
+          <span class="card__button-text">Відтворити</span>
+          <svg class="card__button-svg" width="18px" height="18px">
+            <use href="./images/sprite.svg#play"></use>
+          </svg>
+        </button>
+      </article>
     </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
   </div>
 </section>

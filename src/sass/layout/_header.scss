@@ -74,43 +74,89 @@
 .header__menu-link {
   transition: color 250ms var(--cubic);
 
-  &:hover,
   &:focus {
+    outline: none;
+    border: 2px solid #5d9eff;
+    border-radius: 4px;
+  }
+
+  &:hover {
     color: var(--accent-color);
+    // &::after {
+    //   display: block;
+
+    //   position: absolute;
+
+    //   bottom: -8px;
+
+    //   content: '';
+
+    //   width: 100%;
+    //   height: 4px;
+    //   background-color: var(--accent-color);
+    //   opacity: 1;
+    // }
+  }
+
+  &:active {
+    color: var(--base-white-color);
+
+    &::after {
+      display: block;
+
+      position: absolute;
+
+      bottom: -8px;
+
+      content: '';
+
+      width: 100%;
+      height: 4px;
+      background-color: var(--accent-color);
+      opacity: 1;
+    }
   }
 }
 
-.header__menu-link-current::after {
-  display: block;
+// .header__menu-link-current::after {
+//   display: block;
 
-  position: absolute;
+//   position: absolute;
 
-  bottom: -8px;
+//   bottom: -8px;
 
-  content: '';
+//   content: '';
 
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  opacity: 1;
-}
+//   width: 100%;
+//   height: 4px;
+//   background-color: var(--accent-color);
+//   opacity: 1;
+// }
 
 .burger-btn {
   height: 50px;
   width: 50px;
 
   padding: 0;
-
-  border: 2px solid var(--base-off-white-color);
+  // outline: none;
+  border: none;
+  // border: 2px solid var(--base-off-white-color);
   border-radius: 4px;
 
   background-color: transparent;
+  background-color: var(--accent-color);
 
   cursor: pointer;
   transition: fill 250ms var(--cubic);
-  &:hover,
+  &:hover {
+    background-color: var(--hover-accent-color);
+  }
   &:focus {
-    background-color: var(--accent-color);
+    outline: none;
+    border: 2px solid #5d9eff;
+  }
+  &:active {
+    background-color: var(--base-color-light-orange);
   }
 
   @media screen and (min-width: 1200px) and (max-width: 1920px) {
@@ -121,7 +167,7 @@
 .burger-btn__icon {
   margin: 0 auto;
 
-  fill: var(--base-off-white-color);
+  fill: var(--base-white-color);
 }
 
 .header__contacts-wrapper {

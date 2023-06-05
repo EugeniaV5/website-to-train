@@ -1,8 +1,8 @@
 <section class="services-section" id="services">
-  <div class="container services-container">
+  <div class="container services-container swiper">
     <h2 class="section-title services__title">Послуги по темі будівництва</h2>
-    <div class="articles__wrapper">
-      <article class="services__card">
+    <div class="articles__wrapper swiper-wrapper">
+      <article class="services__card swiper-slide">
         <h3 class="card__title">Збудуй свій дах професійно</h3>
         <p class="card__text">
           Перекриття вашого даху від проєкту до реалізації
@@ -20,7 +20,7 @@
           </svg>
         </button>
       </article>
-      <article class="services__card services__card-second">
+      <article class="services__card services__card-second swiper-slide">
         <h3 class="card__title">Збудуй свій дах професійно</h3>
         <p class="card__text">
           Курс «Як заробляти на будівництві дахів від 100 000 грн в місяць»
@@ -37,7 +37,13 @@
           </svg>
         </button>
       </article>
-      <article class="services__card services__card-third third-card__blur">
+      <article
+        class="
+          services__card services__card-third
+          third-card__blur
+          swiper-slide
+        "
+      >
         <h3 class="card__title">Виведи свій бізнес на новий рівень</h3>
         <p class="card__text">
           Індивідуальна консультація для розвитку вашого бізнесу
@@ -55,5 +61,6 @@
         </button>
       </article>
     </div>
+    <div class="swiper-pagination services__pagination"></div>
   </div>
 </section>
