@@ -2,11 +2,12 @@
   width: 304px;
   //   height: 1220px;
 
-  position: fixed;
+  position: absolute;
   z-index: 999;
   top: 0;
   right: 0;
   margin-left: auto;
+  // overflow: scroll;
 
   padding: 16px;
 
