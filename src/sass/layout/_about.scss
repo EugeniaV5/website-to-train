@@ -196,6 +196,7 @@
   width: 100%;
 
   background-color: #ffffff;
+  transition: all 250ms var(--cubic);
 
   &:not(:last-child) {
     border-bottom: 2px solid #dadde2;
@@ -206,7 +207,7 @@
 
   &:hover,
   &:focus {
-    border-bottom-color: var(--text-dark-accent-color);
+    border-bottom: 4px solid var(--text-dark-accent-color);
   }
 
   @media screen and (min-width: 768px) {
@@ -222,7 +223,7 @@
     }
     &:hover,
     &:focus {
-      border-bottom: 2px solid var(--text-dark-accent-color);
+      border-bottom: 4px solid var(--text-dark-accent-color);
     }
   }
 }
