@@ -57,8 +57,7 @@
 
 .about-section-title {
   margin-bottom: 32px;
-  // font-family: var(--second-font);
-  // @include font(400, 20px, 22px);
+
   color: var(--dark-bg-color);
 
   @media screen and (min-width: 1200px) {
@@ -101,10 +100,6 @@
     margin-bottom: 24px;
   }
 
-  //   &:nth-child(4) {
-  //     margin-bottom: 24px;
-  //   }
-
   @media screen and (min-width: 1200px) {
     @include font(400, 16px, 24px);
   }
@@ -115,9 +110,6 @@
   }
   @media screen and (min-width: 576px) {
     display: flex;
-    // &:not(:last-child) {
-    //   margin-bottom: 24px;
-    // }
   }
   @media screen and (min-width: 768px) {
     flex-direction: column;
@@ -159,11 +151,6 @@
   @media screen and (min-width: 768px) {
     min-width: 376px;
   }
-  // @media screen and (min-width: 1200px) {
-  //   width: 758px;
-  // }
-
-  //   padding: 0;
 }
 .about__facts-wrapper .about__facts-list {
   @media screen and (min-width: 1200px) {

@@ -9,17 +9,6 @@
   }
   @media screen and (min-width: 1200px) {
     justify-content: center;
-    // &::before {
-    //   background-image: url('../images/charity/charity-left-art.png');
-    //   background-repeat: no-repeat;
-    //   position: absolute;
-    //   content: '';
-
-    //   width: 390px;
-    //   height: 879px;
-    //   left: calc(50% - 390px / 2 - 765px);
-    //   top: 0px;
-    // }
   }
 }
 
@@ -43,23 +32,6 @@
     padding-bottom: 217px;
     width: 33.17%;
     position: relative;
-
-    // width: unset;
-    // min-width: 398px;
-
-    // &::before {
-    //   background-image: url('../images/charity/charity-left-art.png');
-    //   background-repeat: no-repeat;
-    //   background-size: contain;
-    //   position: absolute;
-    //   content: '';
-
-    //   width: 390px;
-    //   height: 100%;
-    //   // left: calc(100% - 390px / 2 - 765px);
-    //   top: 0px;
-    //   right: 400px;
-    // }
   }
   @media screen and (min-width: 1300px) {
     width: 39.48%;
@@ -79,15 +51,6 @@
     position: absolute;
   }
 }
-
-// .charity-art-img {
-//   @media screen and (min-width: 1200px) {
-//     width: 390px;
-//     height: 879px;
-//     object-fit: contain;
-//     position: absolute;
-//   }
-// }
 
 .charity__text-content-wrapper {
   padding-right: 16px;
@@ -152,13 +115,8 @@
   padding-bottom: 128px;
 
   background-repeat: no-repeat;
-  // background-position-x: left;
   background-position: center;
-  // background-position: bottom;
   background-size: cover;
-  // background-size: 100% 100%;
-
-  // text-align: center;
 
   background-image: url('../images/charity/charity-form-bg.jpg');
 
@@ -268,10 +226,6 @@
   }
 }
 
-// .charity__extra-margin {
-//   margin-bottom: 24px;
-// }
-
 .consult-form__input {
   width: 100%;
 
@@ -338,11 +292,6 @@
   padding: 0;
 
   border: none;
-
-  // font-family: var(--first-font);
-  // @include font(700, 13px, 20px);
-  // color: var(--base-color-white-200);
-  // text-transform: uppercase;
 }
 
 .check-fields-wrapper {
@@ -362,18 +311,13 @@
   display: flex;
   align-items: center;
 
-  // &:not(:last-child) {
-  //   margin-bottom: 16px;
-  // }
   &::before {
     content: '';
     width: 20px;
     height: 20px;
     background: #ffffff;
-    /* Checkbox/Stroke/NotActive/Default */
 
     border: 1.5px solid #e6e6e6;
-    /* Shadow/xs */
 
     box-shadow: 0px 3px 4px -5px rgba(24, 24, 28, 0.03),
       0px 1px 2px rgba(24, 24, 28, 0.04);

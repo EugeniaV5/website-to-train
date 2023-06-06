@@ -15,7 +15,6 @@
 
   @media screen and (min-width: 1200px) {
     padding-bottom: 128px;
-    // background-size: cover;
     background-image: url('../images/showcases/showcases-bg-1200.png');
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
       screen and (min-resolution: 192dpi) and (min-width: 280px),
@@ -37,7 +36,6 @@
   @media screen and (min-width: 1200px) {
     padding-right: 42px;
     padding-left: 42px;
-    // padding-bottom: 42px;
 
     width: 100%;
     max-width: 1200px;
@@ -113,7 +111,6 @@
 .showcases__central-art-wrapper {
   margin: 0 auto;
   margin-bottom: 32px;
-  // width: 100%;
 
   width: 225px;
   height: 250px;
@@ -130,12 +127,6 @@
 
 .book__img {
   width: 100%;
-  // width: 225px;
-  // height: 250px;
-  // @media screen and (min-width: 576px) {
-  //   width: 300px;
-  //   height: 333.33px;
-  // }
 }
 
 .showcases__book-btn {
@@ -303,13 +294,8 @@
     margin-right: 24px;
   }
 }
-.avatar__pic {
-  //   width: 100%;
-}
-.avatar__img {
-  //   width: 35px;
-  //   height: 35px;
 
+.avatar__img {
   width: 100%;
   height: 100%;
   object-fit: cover;

@@ -1,13 +1,11 @@
 .book-page {
   width: 304px;
-  //   height: 1220px;
 
   position: absolute;
   z-index: 999;
   top: 0;
   right: 0;
   margin-left: auto;
-  // overflow: scroll;
 
   padding: 16px;
 
@@ -15,7 +13,6 @@
   @media screen and (min-width: 1200px) {
     padding: 0;
     width: 1116px;
-    // height: 750px;
     top: unset;
     right: unset;
     margin-left: unset;
@@ -63,12 +60,7 @@
     margin-bottom: 16px;
   }
 }
-// .book__paragraph {
-//   margin-bottom: 16px;
-//   font-family: var(--first-font);
-//   @include font(400, 13px, 20px);
-//   color: var(--dark-bg-color);
-// }
+
 
 .book__list {
   margin-bottom: 8px;
