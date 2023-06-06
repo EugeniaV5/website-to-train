@@ -30,7 +30,12 @@
           <li class="mobile-menu__contacts-item">
             <ul class="mobile-menu__social-contacts__list list">
               <li class="mobile-menu__social-contacts-item">
-                <a href="" class="mobile-menu__social-link link">
+                <a
+                  href=""
+                  class="mobile-menu__social-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
                     class="mobile-menu__social-icon footer__social-icon"
                     width="20px"
@@ -41,7 +46,12 @@
                 </a>
               </li>
               <li class="mobile-menu__social-contacts-item">
-                <a href="" class="mobile-menu__social-link link">
+                <a
+                  href=""
+                  class="mobile-menu__social-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
                     class="mobile-menu__social-icon footer__social-icon"
                     width="20px"
@@ -52,7 +62,12 @@
                 </a>
               </li>
               <li class="mobile-menu__social-contacts-item">
-                <a href="" class="mobile-menu__social-link link">
+                <a
+                  href=""
+                  class="mobile-menu__social-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
                     class="mobile-menu__social-icon footer__social-icon"
                     width="20px"
@@ -63,7 +78,12 @@
                 </a>
               </li>
               <li class="mobile-menu__social-contacts-item">
-                <a href="" class="mobile-menu__social-link link">
+                <a
+                  href=""
+                  class="mobile-menu__social-link link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
                     class="mobile-menu__social-icon footer__social-icon"
                     width="20px"
@@ -89,12 +109,12 @@
             "
           >
             <input
-              class="consult-form__input showcases__consult-form__input"
+              class="consult-form__input showcases__consult-form__input name"
               type="text"
               required
-              name="user-name"
+              name="userName"
               minlength="2"
-              pattern="[a-zA-Zа-яёА-ЯЁ]+"
+              pattern="[a-zA-Zа-яїієА-ЯЇІЄ]+"
               title="Імʼя має містити символи кириліці або латиниці"
               placeholder="Ваше імʼя"
             />
@@ -115,10 +135,10 @@
             "
           >
             <input
-              class="consult-form__input showcases__consult-form__input"
+              class="consult-form__input showcases__consult-form__input tel"
               type="tel"
               required
-              name="user-phone"
+              name="userPhone"
               pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
               title="096-000-00-00"
               placeholder="Телефон"
@@ -140,10 +160,10 @@
             "
           >
             <input
-              class="consult-form__input showcases__consult-form__input"
+              class="consult-form__input showcases__consult-form__input mail"
               type="email"
               required
-              name="user-email"
+              name="userEmail"
               placeholder="Email"
             />
             <svg
@@ -157,13 +177,13 @@
 
           <span class="">
             <textarea
-              name="user-message"
+              name="userMessage"
               class="footer__form-message"
               placeholder="Ваше повідомлення"
             ></textarea>
           </span>
         </div>
-        <button class="button mail__button consult-form__button">
+        <button type="submit" class="button mail__button consult-form__button">
           <span class="mail__button-text">Надіслати</span>
           <svg class="mail-btn__icon" width="18px" height="18px">
             <use href="./images/sprite.svg#mail-fill"></use>
@@ -173,3 +193,5 @@
     </div>
   </div>
 </footer>
+
+<!-- ./thank-you-page.html -->

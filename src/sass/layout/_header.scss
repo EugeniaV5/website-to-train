@@ -82,20 +82,6 @@
 
   &:hover {
     color: var(--accent-color);
-    // &::after {
-    //   display: block;
-
-    //   position: absolute;
-
-    //   bottom: -8px;
-
-    //   content: '';
-
-    //   width: 100%;
-    //   height: 4px;
-    //   background-color: var(--accent-color);
-    //   opacity: 1;
-    // }
   }
 
   &:active {
@@ -118,29 +104,12 @@
   }
 }
 
-// .header__menu-link-current::after {
-//   display: block;
-
-//   position: absolute;
-
-//   bottom: -8px;
-
-//   content: '';
-
-//   width: 100%;
-//   height: 4px;
-//   background-color: var(--accent-color);
-//   opacity: 1;
-// }
-
 .burger-btn {
   height: 50px;
   width: 50px;
 
   padding: 0;
-  // outline: none;
   border: none;
-  // border: 2px solid var(--base-off-white-color);
   border-radius: 4px;
 
   background-color: transparent;

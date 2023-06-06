@@ -26,12 +26,6 @@
   }
 }
 
-// .copyright__logo-link {
-//   @media screen and (min-width: 576px) {
-//     display: block;
-//   }
-// }
-
 .copyright__logo {
   margin-bottom: 16px;
   fill: var(--base-white-color);
@@ -52,9 +46,7 @@
 
 .copyright__agency-logo {
   position: absolute;
-  //   padding: 8px 16px;
   bottom: 0;
-  //   left: 195px;
   right: 16px;
   @media screen and (min-width: 1200px) {
     right: 0;
