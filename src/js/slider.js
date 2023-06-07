@@ -22,6 +22,12 @@ const swiper = new Swiper('.swiper', {
     1200: {
       slidesPerView: 3,
       spaceBetween: 24,
+      // slidesPerGroup: 3,
+      // Navigation arrows
+      navigation: {
+        nextEl: '.next',
+        prevEl: '.prev',
+      },
     },
   },
 

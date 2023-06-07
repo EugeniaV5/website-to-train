@@ -10,6 +10,10 @@
 }
 
 .copyright-container {
+  @media screen and (min-width: 576px) {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
   @media screen and (min-width: 1200px) {
     width: 1200px;
     padding-right: 42px;
