@@ -5,7 +5,7 @@
   background-color: var(--dark-bg-color);
   border-bottom: 3px solid var(--base-graphite-color);
 
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     padding-top: 25px;
     padding-bottom: 25px;
   }
@@ -22,13 +22,13 @@
   justify-content: space-between;
   align-items: center;
 
-  @media screen and (min-width: 576px) and (max-width: 1199px) {
+  @media screen and (min-width: 576px) {
     min-width: 576px;
 
     padding-right: 64px;
     padding-left: 64px;
   }
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     align-items: center;
 
     min-width: 1200px;
@@ -39,7 +39,7 @@
 }
 
 .header__navigation {
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 }
@@ -47,7 +47,7 @@
 .header__logo {
   fill: #ffffff;
 
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     width: 150px;
     height: 50px;
   }
@@ -56,7 +56,7 @@
 .heade__menu {
   display: none;
 
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     font-family: var(--first-font);
     @include font(700, 13px, 20px);
@@ -128,7 +128,7 @@
     background-color: var(--base-color-light-orange);
   }
 
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     display: none;
   }
 }
@@ -141,7 +141,7 @@
 
 .header__contacts-wrapper {
   display: none;
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
   }
@@ -149,7 +149,7 @@
 
 .header__tel {
   display: none;
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     display: block;
 
     margin-right: 32px;
@@ -163,7 +163,7 @@
 .header__social-list {
   display: none;
 
-  @media screen and (min-width: 1200px) and (max-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 }
